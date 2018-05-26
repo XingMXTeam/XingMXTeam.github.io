@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: 毛毛星的个人技术博客
 subtitle:
 description:
 keywords:
-author: John Doe
+author: 毛毛星
 language:
 timezone:
 
@@ -73,11 +73,20 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+#RSS订阅
+plugin:
+- hexo-generator-feed
+#Feed Atom
+feed:
+type: atom
+path: atom.xml
+limit: 20
+
 theme: crisp
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
    type: git
-   repository: https://github.com/XingMXTeam/XingMXTeam.github.io.git
+   repository: git@github.com:XingMXTeam/XingMXTeam.github.io.git
    branch: master
