@@ -40,3 +40,21 @@ Social media accounts:
 - **facebook**
 - **twitter**
 - **linkedin**
+
+## command
+```
+hexo clean 清理public
+hexo g 生成站点
+hexo s 本地预览
+hexo s --draft 预览草稿
+hexo d 部署
+hexo new draft <title> 创建草稿
+hexo publish 发表草稿到_posts
+hexo new [layout] <title> 写博客
+hexo new page "about" 生成新页面
+```
+
+## 添加新功能
+
+https://github.com/iissnan/hexo-theme-next/wiki/%E6%98%BE%E7%A4%BA-feed-%E9%93%BE%E6%8E%A5
+
